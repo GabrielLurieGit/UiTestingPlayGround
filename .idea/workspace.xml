@@ -6,6 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="9dc74193-8d9f-4836-9c91-9a17866a0118" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/enums/HomePageMenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/enums/HomePageMenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AjaxDataPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AjaxDataPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ClickPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ClickPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ClientSideDelayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ClientSideDelayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoadDelayPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoadDelayPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TextInputPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TextInputPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests/AjaxDataTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests/AjaxDataTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests/LoadDelayTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests/LoadDelayTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +25,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -39,6 +58,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.AjaxDataTests.ajaxDataLabelTest.executor": "Run",
+    "Gradle.AjaxDataTests.ajaxDataSpinnerTest.executor": "Run",
+    "Gradle.AjaxDataTests.ajaxDataTest.executor": "Run",
     "Gradle.ClassAttributeTests.classAttributeBtnTest.executor": "Run",
     "Gradle.DynamicIDTests.dynamicIdBtnTest.executor": "Run",
     "Gradle.DynamicIDTests.dynamicIdChangesTest.executor": "Run",
@@ -46,6 +68,7 @@
     "Gradle.DynamicIDTests.positiveTest1.executor": "Run",
     "Gradle.HiddenLayersTests.hiddenLayersTest.executor": "Run",
     "Gradle.HomeTests.startTest.executor": "Run",
+    "Gradle.LoadDelayTests.loadDelayTest.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -57,8 +80,8 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.HiddenLayersTests.hiddenLayersTest">
-    <configuration name="ClassAttributeTests.classAttributeBtnTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AjaxDataTests.ajaxDataLabelTest">
+    <configuration name="AjaxDataTests.ajaxDataLabelTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -71,7 +94,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ui_tests.ClassAttributeTests.classAttributeBtnTest&quot;" />
+            <option value="&quot;ui_tests.AjaxDataTests.ajaxDataLabelTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -82,7 +105,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DynamicIDTests.dynamicIdBtnTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AjaxDataTests.ajaxDataSpinnerTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -95,7 +118,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ui_tests.DynamicIDTests.dynamicIdBtnTest&quot;" />
+            <option value="&quot;ui_tests.AjaxDataTests.ajaxDataSpinnerTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -106,7 +129,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="DynamicIDTests.dynamicIdChangesTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AjaxDataTests.ajaxDataTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -119,31 +142,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ui_tests.DynamicIDTests.dynamicIdChangesTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>true</RunAsTest>
-      <method v="2" />
-    </configuration>
-    <configuration name="DynamicIDTests.dynamicIdPositiveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;ui_tests.DynamicIDTests.dynamicIdPositiveTest&quot;" />
+            <option value="&quot;ui_tests.AjaxDataTests.ajaxDataTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -178,13 +177,37 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="LoadDelayTests.loadDelayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ui_tests.LoadDelayTests.loadDelayTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AjaxDataTests.ajaxDataLabelTest" />
+        <item itemvalue="Gradle.AjaxDataTests.ajaxDataSpinnerTest" />
+        <item itemvalue="Gradle.AjaxDataTests.ajaxDataTest" />
+        <item itemvalue="Gradle.LoadDelayTests.loadDelayTest" />
         <item itemvalue="Gradle.HiddenLayersTests.hiddenLayersTest" />
-        <item itemvalue="Gradle.DynamicIDTests.dynamicIdChangesTest" />
-        <item itemvalue="Gradle.DynamicIDTests.dynamicIdBtnTest" />
-        <item itemvalue="Gradle.ClassAttributeTests.classAttributeBtnTest" />
-        <item itemvalue="Gradle.DynamicIDTests.dynamicIdPositiveTest" />
       </list>
     </recent_temporary>
   </component>

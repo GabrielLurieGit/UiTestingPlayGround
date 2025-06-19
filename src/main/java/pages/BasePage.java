@@ -18,8 +18,9 @@ public abstract class BasePage {
 
     public <T extends BasePage> T chooseHomePageMenuItem(HomePageMenuItem homePageMenuItem) {
 
-        WebElement element = driver.findElement(
-                By.xpath("//a[text()='" + homePageMenuItem.getLocator() + "']"));
+        WebElement element = new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.elementToBeClickable(By.xpath(
+                        "//a[text()='" + homePageMenuItem.getLocator() + "']")));
         element.click();
         switch (homePageMenuItem) {
             case DYNAMIC_ID -> {
@@ -33,6 +34,18 @@ public abstract class BasePage {
             }
             case CLASS_ATTRIBUTE -> {
                 return (T) new ClassAttributePage(driver);
+            }
+            case CLICK -> {
+                return (T) new ClickPage(driver);
+            }
+            case AJAX_DATA -> {
+                return (T) new AjaxDataPage(driver);
+            }
+            case TEXT_INPUT -> {
+                return (T) new TextInputPage(driver);
+            }
+            case CLIENT_SIDE_DELAY -> {
+                return (T) new ClientSideDelayPage(driver);
             }
             default -> throw new IllegalArgumentException("wrong parameter");
         }
